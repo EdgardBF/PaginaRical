@@ -1,0 +1,21 @@
+a img{
+    border-radius: 0.5em;
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+    
+}
+
+.texto{
+    font-size: 250%;
+    margin-left: 2%;
+}
+
+.mitexto{
+-webkit-text-fill-color: #fff;
+-webkit-text-stroke: 1px #00e5ff;
+}
+
+.slider {
+ z-index: 0;
+}
