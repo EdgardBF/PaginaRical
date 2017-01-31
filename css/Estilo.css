@@ -1,13 +1,9 @@
-a img{
-    border-radius: 0.5em;
-    width: 50%;
-    height: 50%;
-    z-index: 1;
-    
+.imagenes img{
+    width: 30%;
+    height: 30%;    
 }
-
 .texto{
-    font-size: 250%;
+    font-size: 200%;
     margin-left: 2%;
 }
 
@@ -15,7 +11,6 @@ a img{
 -webkit-text-fill-color: #fff;
 -webkit-text-stroke: 1px #00e5ff;
 }
-
 .slider {
  z-index: 0;
 }
