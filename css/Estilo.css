@@ -35,8 +35,6 @@ p.justificar{
     height: 200px;
     background: red;
 }
-
-.fb-like {
-    height: 20px;
-    width: 100%;
-    }
+.fb-like{
+bottom: 6px;
+}
