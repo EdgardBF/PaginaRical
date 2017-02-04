@@ -8,9 +8,21 @@
 }
 
 .mitexto{
--webkit-text-fill-color: #fff;
--webkit-text-stroke: 1px #00e5ff;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke: 1px #00e5ff;
 }
 .slider {
  z-index: 0;
+}
+.tituloC{
+    color: #fff;
+    font-size: 20px;
+}
+
+p.justificar{
+    text-align: justify;
+}
+
+.text{
+    color: black;
 }
