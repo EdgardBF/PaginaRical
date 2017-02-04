@@ -5,6 +5,7 @@ $(document).ready(function(){
     $('.materialboxed').materialbox();
     $('.modal').modal();
     $('ul.tabs').tabs();
-
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
+    
 
 });
