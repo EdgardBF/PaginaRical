@@ -8,6 +8,7 @@
   <link rel="shortcut icon" href="img/logo.jpg">
    <link rel="stylesheet" href="css/icon.css">
 </head>
+<div id="fb-root"></div>
 <body>
   <nav>
     <div class="nav-wrapper #263238 blue-grey darken-4">
@@ -98,14 +99,16 @@
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                <h5 class="white-text">Dirección</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                <h5 class="white-text">Ubicación</h5>
+                <p class="grey-text text-lighten-4"><div id="map"></div></p>
                 </div>
                 <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
+                <h5 class="white-text">Dirección</h5>
                 <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                    <li><a class="grey-text text-lighten-3">Avenida Aguilares #218, Centro Urbano Libertad.San Salvador, El Salvador</a></li>
+                    <li><a class="grey-text text-lighten-3">
+                        <div class="fb-like" data-href="https://www.facebook.com/ricaldone.itr/?ref=ts&amp;fref=ts" data-width="20" data-layout="button_count" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
+                    </a></li>
                     <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
                     <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
                 </ul>
@@ -119,9 +122,12 @@
     </div>
     </div>
     </footer>     
-
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/materialize.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/sdk.js"></script>
+    <script async defer
+      src="js/api1.js">
+    </script>
 </body>
 </html>    
