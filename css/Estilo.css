@@ -1,28 +1,30 @@
+/*Aqui se encuentra los cambios que se usaron para la pagina*/
+/*Dimensiones del logo*/
 .imagenes img{
     width: 30%;
     height: 30%;    
 }
+/*texto que dice instituto tecnico ricaldone en el menu*/
 .texto{
     font-size: 200%;
     margin-left: 2%;
 }
-
+/*el texto del slider que dice promo 17*/
 .mitexto{
     -webkit-text-fill-color: #fff;
     -webkit-text-stroke: 1px #00e5ff;
 }
-
+/*los titulos de la tarjetas ubicadas en ofertas academicas*/
 .tituloC{
     color: #fff;
     font-size: 20px;
 }
 
-
 .tituloI{
     color: #000;
     font-size: 20px;
 }
-
+/*justificacion del texto dentro de las cartas de ofertas academicas*/
 p.justificar{
     text-align: justify;
 }
@@ -30,13 +32,13 @@ p.justificar{
 .text{
     color: black;
 }
-
+/*el tamaño de las imagenes de instalaciones*/
 .row img{
     width: 100%;
     height: 200px;
 }
 
-
+/*dimensciones del mapa que esta ubicadoen eso*/
 #map{
     height: 200px;
     background: red;
@@ -44,9 +46,11 @@ p.justificar{
 .fb-like{
 bottom: 6px;
 }
+/*espacion entre los botones de facebook y twittwer*/
 .bajon img{
     height: 24px;
 }
+/*configuracion del boton de instagram*/
 .ig-b- { 
     display: inline-block; 
     }
@@ -66,3 +70,16 @@ bottom: 6px;
 .ig-b-v-24 { 
     background-image: url(../img/intagram2.png); background-size: 160px 178px; } 
     }
+
+ @media screen and (max-width: 910px){
+    .texto{
+        font-size: 100%;
+        margin-left: 2%;
+    }
+ }   
+
+ @media screen and (max-width: 560px){
+    .texto{
+        display: none;
+    }
+ }   
